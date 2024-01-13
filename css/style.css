@@ -372,13 +372,13 @@ textarea {
   }
   .content-1{
     font-family: UbuntuRegular, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 10px;
     text-align: left;
   }
   .content-2{
     font-family: UbuntuRegular, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 20px;
     text-align: left;   
   }
@@ -396,13 +396,17 @@ textarea {
   }
   .title-service{
     font-family: UbuntuBold, sans-serif;
-    font-size: 40px;
-    margin-top: 30px;
-    padding-left: 6px;
-    border-right: 2px solid black;
+    font-family: UbuntuBold, sans-serif;
+    font-size: 55px;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-align: left;
+    span{
+      border-bottom: 2px solid black;
+    }
   }
   .service{
-    padding-top: 7%;
+    padding-top: 1%;
     .circle{
       border-radius: 10px;
       background: black;
@@ -455,15 +459,9 @@ textarea {
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
   height: 100%;
-  .background-contact{
-    background: url(../img/contact.png);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-  }
   .title-contact{
     font-family: UbuntuBold, sans-serif;
-    font-size: 40px;
+    font-size: 55px;
     padding-top: 5%;
     padding-left: 5%;
     span{
