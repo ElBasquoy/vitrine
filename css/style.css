@@ -279,7 +279,8 @@ textarea {
 .content{
   height: 100%;
   overflow-y: auto;
-  padding-top: 100px;
+  overflow-x: hidden;
+  position: fixed;
 }
 .logo {
   padding-left: 25px;
@@ -473,15 +474,27 @@ textarea {
     text-align: center;
     .phone{
       font-family: UbuntuBold, sans-serif;
-      padding-top: 10px;
+      padding-top: 30px;
+      img{
+        height: 20px;
+        margin-right: 5px;
+      }
     }
     .mail{
       font-family: UbuntuBold, sans-serif;
       padding-top: 10px;
+      img{
+        height: 20px;
+        margin-right: 5px;
+      }
     }
     .insta{      
       font-family: UbuntuBold, sans-serif;
       padding-top: 10px;
+      img{
+        height: 20px;
+        margin-right: 5px;
+      }
     }
   } 
 }
