@@ -254,6 +254,18 @@ html, body {
     padding-left: 6px;
     border-right: 2px solid black;
   }
+  @media only screen and (max-width: 576px) {
+    .title-projet{
+      font-family: UbuntuBold, sans-serif;
+      font-size: 25px;
+      margin-left: 5px;
+      padding-top: 5%;
+      padding-left: 5%;
+      span{
+        border-bottom: 2px solid black;
+      }
+    }
+  }
   .libelle{
     font-size: 13px;
     padding-top: 10px;
@@ -277,7 +289,8 @@ html, body {
   }
   @media only screen and (max-width: 576px) {
     .title-contact{
-        font-size: 15px;
+      font-size: 25px;
+      margin-left: 5px;
     }
   }
   .contact{
