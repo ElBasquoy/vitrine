@@ -321,7 +321,7 @@ html, body {
       font-family: UbuntuBold, sans-serif;
       font-size: 25px;
       margin-left: 5px;
-      padding-top: 5%;
+      padding-top: 10%;
       padding-left: 5%;
       span{
         border-bottom: 2px solid black;
@@ -353,6 +353,7 @@ html, body {
     .title-contact{
       font-size: 25px;
       margin-left: 5px;
+      margin-top: 5%;
     }
   }
   .contact{
