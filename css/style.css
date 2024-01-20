@@ -337,10 +337,6 @@ textarea {
       padding-top: 5px;
     }
   }
-  .citation-2{
-    font-family: DansingScript, cursive;
-    margin-top: 6%;
-  }
   .contact{
     font-size: 13px;
     font-family: UbuntuRegular, sans-serif;
@@ -369,6 +365,7 @@ textarea {
     font-size: 15px;
     padding-bottom: 10px;
     text-align: left;
+    margin-top: 30px;
   }
   .content-1{
     font-family: UbuntuRegular, sans-serif;
@@ -382,6 +379,10 @@ textarea {
     padding-bottom: 20px;
     text-align: left;   
   }
+  .citation-2{
+    font-family: DansingScript, cursive;
+    margin-top: 8%;
+  }
 }
 
 #section-3{
@@ -389,7 +390,7 @@ textarea {
   font-size: 13px;
   height: 100%;
   .background-service{
-    background: url(../img/service.png);
+    background: url(../img/service.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
