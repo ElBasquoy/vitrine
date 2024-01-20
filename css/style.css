@@ -233,8 +233,14 @@ html, body {
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
   height: 100%;
-  .background-service{
-    background: url(../img/service.jpg);
+  .background-service-1{
+    background: url(../img/service-1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  .background-service-2{
+    background: url(../img/service-2.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -280,6 +286,10 @@ html, body {
     }
     .info{
       padding-bottom: 10px
+    }
+    @media only screen and (max-width: 576px) {
+      padding-left: 5%;
+      padding-right: 5%;
     }
   }
 }
