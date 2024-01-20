@@ -103,11 +103,21 @@ html, body {
       font-family: UbuntuBold, sans-serif;   
     }
   }
+  @media only screen and (max-width: 576px) {
+    .title{
+      padding-bottom: 5%;   
+    }
+  }
   .information{
     font-family: UbuntuBold, sans-serif;
     font-size: 12px;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+  @media only screen and (max-width: 576px) {
+    .information{
+      padding-bottom: 5%;   
+    }
   }
   .citation-1{
     font-family: UbuntuRegular, sans-serif;
