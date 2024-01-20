@@ -170,6 +170,9 @@ html, body {
 
 #section-2{
   height: 100%;
+  @media only screen and (max-width: 576px) {
+    height: auto;
+  }
   img{
     max-width: 95%;
   }
@@ -236,6 +239,9 @@ html, body {
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
   height: 100%;
+  @media only screen and (max-width: 576px) {
+    height: auto;
+  }
   .background-service-1{
     background: url(../img/service-1.jpg);
     height: 100%;
@@ -321,7 +327,8 @@ html, body {
       font-family: UbuntuBold, sans-serif;
       font-size: 25px;
       margin-left: 5px;
-      padding-top: 10%;
+      padding-top: 5%;
+      margin-top: 5%;
       padding-left: 5%;
       span{
         border-bottom: 2px solid black;
