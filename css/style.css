@@ -277,7 +277,7 @@ html, body {
   }
   @media only screen and (max-width: 576px) {
     .title-contact{
-        font-size: 25px;
+        font-size: 15px;
     }
   }
   .contact{
