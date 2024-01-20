@@ -96,6 +96,9 @@ html, body {
   height: 100%;
   padding: 0% 4% 0% 4%;
   font-family: UbuntuRegular, sans-serif;
+  @media only screen and (max-width: 576px) {
+    height: auto;
+  }
   .title{
     font-size:20px;
     padding-top: 5%;
@@ -297,6 +300,9 @@ html, body {
 #section-4{
   height: 100%;
   font-family: UbuntuRegular, sans-serif;
+  @media only screen and (max-width: 576px) {
+    height: auto;
+  }
   img{
     height:350px;
     width: 350px;
