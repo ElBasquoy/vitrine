@@ -90,6 +90,7 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
+  scroll-behavior: smooth;
 }
 
 #section-1{
@@ -192,6 +193,7 @@ html, body {
       padding-left: 5%;
       text-align: left;
       span{
+        letter-spacing: 5px;
         border-bottom: 2px solid black;
       }
     }
@@ -260,6 +262,7 @@ html, body {
     padding-top: 5%;
     span{
       border-bottom: 2px solid black;
+      letter-spacing: 10px;
     }
   }
   @media only screen and (max-width: 576px) {
@@ -270,6 +273,7 @@ html, body {
       margin-top: 30px;
       span{
         border-bottom: 2px solid black;
+        letter-spacing: 5px;
       }    
     }
   }
@@ -332,6 +336,7 @@ html, body {
       padding-left: 5%;
       span{
         border-bottom: 2px solid black;
+        letter-spacing: 5px;
       }
     }
   }
@@ -352,6 +357,7 @@ html, body {
     font-size: 55px;
     padding-top: 5%;
     padding-left: 5%;
+    letter-spacing: 10px;
     span{
       border-bottom: 2px solid black;
     }
@@ -361,11 +367,16 @@ html, body {
       font-size: 25px;
       margin-left: 5px;
       margin-top: 5%;
+      letter-spacing: 5px;
     }
   }
   .contact{
     padding-top: 10%;
     text-align: center;
+    @media only screen and (max-width: 576px) {
+      margin-left:5%;
+      margin-right: 5%;
+    }
     .phone{
       font-family: UbuntuBold, sans-serif;
       padding-top: 30px;
