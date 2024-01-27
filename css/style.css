@@ -157,16 +157,16 @@ html, body {
     .mail{      
       font-family: UbuntuBold, sans-serif;
       padding-top: 10px;
-      .link-mail{
-        text-decoration: none;
-        color: black;
-      }
       .logo-env{
         height: 20px;
         margin-right: 5px;
       }
     }
   }
+}
+.link-mail{
+  text-decoration: none;
+  color: black;
 }
 
 #section-2{
