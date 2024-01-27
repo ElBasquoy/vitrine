@@ -184,6 +184,11 @@ header{
     text-align: left;
   }
 }
+@media only screen and (min-width:567px) and (max-width: 768px) {
+  .o-title-origine{
+    padding-bottom: 6%;
+  }
+}
 .o-span-origine{
   letter-spacing: 5px;
   border-bottom: 2px solid black;
@@ -267,7 +272,7 @@ header{
     margin-top: 30px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width:567px) and (max-width: 768px) {
   .s-title-service{
     font-size: 40px;
     padding-left: 5%;
@@ -382,6 +387,14 @@ header{
 @media only screen and (max-width: 576px) {
   .c-title-contact{
     font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5%;
+    letter-spacing: 5px;
+  }
+}
+@media only screen and (min-width:567px) and (max-width: 768px) {
+  .c-title-contact{
+    font-size: 40px;
     margin-left: 5px;
     margin-top: 5%;
     letter-spacing: 5px;
