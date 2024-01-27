@@ -187,6 +187,7 @@ header{
     padding-top: 5%;
     padding-left: 5%;
     text-align: left;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width:567px) and (max-width: 768px) {
@@ -352,15 +353,23 @@ header{
 }
 @media only screen and (max-width: 576px) {
   .p-title-projet{
-    font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
-    padding-top: 5%;
     margin-top: 5%;
+    letter-spacing: 5px;
     padding-left: 5%;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width:567px) and (max-width: 768px) {
+  .p-title-projet{
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top: 5%;
+    letter-spacing: 5px;
+    padding-left: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
   .p-span-projet{
     border-bottom: 2px solid black;
     letter-spacing: 5px;
