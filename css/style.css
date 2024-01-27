@@ -83,14 +83,18 @@ header{
   height: 100%;
   padding: 0% 4% 0% 4%;
   font-family: UbuntuRegular, sans-serif;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  #section-1{
     height:auto
   }
 }
 .section-title{
   font-size:20px;
   padding-top: 5%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .section-title{
     padding-bottom: 5%;
   }
 }
@@ -102,7 +106,9 @@ header{
   font-size: 12px;
   padding-top: 2%;
   padding-bottom: 2%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .information{
     padding-bottom: 5%;
   }
 }
@@ -152,7 +158,9 @@ header{
  */
 #section-2{
   height: 100%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  #section-2{
     height: auto;
   }
 }
@@ -165,7 +173,9 @@ header{
   margin-top: 30px;
   padding-left: 6px;
   border-right: 2px solid black;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .title-origine{
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -184,7 +194,9 @@ header{
   padding-bottom: 10px;
   text-align: left;
   margin-top: 30px;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .title{
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -221,7 +233,9 @@ header{
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
   height: 100%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  #section-3{
     height: auto;
   }
 }
@@ -241,7 +255,9 @@ header{
   font-family: UbuntuBold, sans-serif;
   font-size: 55px;
   padding-top: 5%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .title-service{
     font-size: 25px;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -254,7 +270,9 @@ header{
 }
 .service{
   padding-top: 1%;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .service{
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -292,7 +310,9 @@ header{
 #section-4{
   height: 100%;
   font-family: UbuntuRegular, sans-serif;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  #section-4{
     height: auto;
   }
 }
@@ -308,7 +328,9 @@ header{
   margin-top: 30px;
   padding-left: 6px;
   border-right: 2px solid black;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .title-projet{
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -345,7 +367,9 @@ header{
   padding-top: 5%;
   padding-left: 5%;
   letter-spacing: 10px;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .title-contact{
     font-size: 25px;
     margin-left: 5px;
     margin-top: 5%;
@@ -358,7 +382,9 @@ header{
 .contact{
   padding-top: 10%;
   text-align: center;
-  @media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 576px) {
+  .contact{
     margin-left:5%;
     margin-right: 5%;
   }
