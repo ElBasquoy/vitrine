@@ -37,23 +37,6 @@ html, body {
   margin: 0;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
 /*
  * css developement website
  */
@@ -64,8 +47,7 @@ html, body {
 body{
  overflow-y: hidden
 }
-
- header{
+header{
   height: 100px;
 }
 .lien-site{
@@ -86,7 +68,6 @@ body{
     height: 50px !important
   }
 }
-
 .content{
   height: 100%;
   overflow-y: auto;
@@ -109,10 +90,8 @@ body{
 .section-title{
   font-size:20px;
   padding-top: 5%;
-}
-@media only screen and (max-width: 576px) {
-  .section-title{
-    padding-bottom: 5%;   
+  @media only screen and (max-width: 576px) {
+    padding-bottom: 5%;
   }
 }
 .title-first{
@@ -123,10 +102,8 @@ body{
   font-size: 12px;
   padding-top: 2%;
   padding-bottom: 2%;
-}
-@media only screen and (max-width: 576px) {
-  .information{
-    padding-bottom: 5%;   
+  @media only screen and (max-width: 576px) {
+    padding-bottom: 5%;
   }
 }
 .citation-1{
@@ -188,9 +165,7 @@ body{
   margin-top: 30px;
   padding-left: 6px;
   border-right: 2px solid black;
-}
-@media only screen and (max-width: 576px) {
-  .title-origine{
+  @media only screen and (max-width: 576px) {
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -209,6 +184,10 @@ body{
   padding-bottom: 10px;
   text-align: left;
   margin-top: 30px;
+  @media only screen and (max-width: 576px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 .content-1{
   font-family: UbuntuRegular, sans-serif;
@@ -221,12 +200,6 @@ body{
   font-size: 14px;
   padding-bottom: 20px;
   text-align: left;   
-}
-@media only screen and (max-width: 576px) {
-  .title{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
 }
 .content-1{
   padding-left: 5%;
@@ -268,18 +241,16 @@ body{
   font-family: UbuntuBold, sans-serif;
   font-size: 55px;
   padding-top: 5%;
+  @media only screen and (max-width: 576px) {
+    font-size: 25px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 30px;
+  }
 }
 .span-service{
   border-bottom: 2px solid black;
   letter-spacing: 10px;
-}
-@media only screen and (max-width: 576px) {
-  .title-service{
-    font-size: 25px;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    margin-top: 30px;   
-  }
 }
 .service{
   padding-top: 1%;
@@ -337,9 +308,7 @@ body{
   margin-top: 30px;
   padding-left: 6px;
   border-right: 2px solid black;
-} 
-@media only screen and (max-width: 576px) {
-  .title-projet{
+  @media only screen and (max-width: 576px) {
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -376,17 +345,15 @@ body{
   padding-top: 5%;
   padding-left: 5%;
   letter-spacing: 10px;
-}
-.span-conctact{
-  border-bottom: 2px solid black;
-}
-@media only screen and (max-width: 576px) {
-  .title-contact{
+  @media only screen and (max-width: 576px) {
     font-size: 25px;
     margin-left: 5px;
     margin-top: 5%;
     letter-spacing: 5px;
   }
+}
+.span-conctact{
+  border-bottom: 2px solid black;
 }
 .contact{
   padding-top: 10%;
