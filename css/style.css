@@ -301,10 +301,11 @@ body{
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.title{
+.subtitle{
   font-family: UbuntuBold, sans-serif;
   font-size: 15px;
   padding-bottom: 5px;
+  text-align: center;
 }
 .price{
   font-size: smaller;
