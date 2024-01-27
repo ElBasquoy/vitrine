@@ -241,9 +241,8 @@ body{
   margin-top: 8%;
 }
 
-
 /*
- * css section-2
+ * css section-3
  */
 #section-3{
   font-family: UbuntuRegular, sans-serif;
@@ -315,111 +314,120 @@ body{
   padding-bottom: 10px
 }
 
+/*
+ * css section-4
+ */
 #section-4{
   height: 100%;
   font-family: UbuntuRegular, sans-serif;
   @media only screen and (max-width: 576px) {
     height: auto;
   }
-  img{
-    height:350px;
-    width: 350px;
-    border:1px solid black;
-    margin-top:15%
-  }
+}
+.img-projet{
+  height:350px;
+  width: 350px;
+  border:1px solid black;
+  margin-top:15%
+}
+.title-projet{
+  font-family: UbuntuBold, sans-serif;
+  font-size: 40px;
+  margin-top: 30px;
+  padding-left: 6px;
+  border-right: 2px solid black;
+} 
+@media only screen and (max-width: 576px) {
   .title-projet{
     font-family: UbuntuBold, sans-serif;
-    font-size: 40px;
-    margin-top: 30px;
-    padding-left: 6px;
-    border-right: 2px solid black;
-  }
-  @media only screen and (max-width: 576px) {
-    .title-projet{
-      font-family: UbuntuBold, sans-serif;
-      font-size: 25px;
-      margin-left: 5px;
-      padding-top: 5%;
-      margin-top: 5%;
-      padding-left: 5%;
-      span{
-        border-bottom: 2px solid black;
-        letter-spacing: 5px;
-      }
-    }
-  }
-  .libelle{
-    font-size: 13px;
-    padding-top: 10px;
-  }
-  .projet{
-    vertical-align: middle;
+    font-size: 25px;
+    margin-left: 5px;
+    padding-top: 5%;
+    margin-top: 5%;
+    padding-left: 5%;
   }
 }
+@media only screen and (max-width: 576px) {
+  .span-projet{
+    border-bottom: 2px solid black;
+    letter-spacing: 5px;
+  }
+}
+.libelle{
+  font-size: 13px;
+  padding-top: 10px;
+}
+.projet{
+  vertical-align: middle;
+}
+
+/*
+ * css section-5
+ */
 #section-5{
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
   height: 100%;
+}
+.title-contact{
+  font-family: UbuntuBold, sans-serif;
+  font-size: 55px;
+  padding-top: 5%;
+  padding-left: 5%;
+  letter-spacing: 10px;
+}
+.span-conctact{
+  border-bottom: 2px solid black;
+}
+@media only screen and (max-width: 576px) {
   .title-contact{
-    font-family: UbuntuBold, sans-serif;
-    font-size: 55px;
-    padding-top: 5%;
-    padding-left: 5%;
-    letter-spacing: 10px;
-    span{
-      border-bottom: 2px solid black;
-    }
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5%;
+    letter-spacing: 5px;
   }
+}
+.contact{
+  padding-top: 10%;
+  text-align: center;
   @media only screen and (max-width: 576px) {
-    .title-contact{
-      font-size: 25px;
-      margin-left: 5px;
-      margin-top: 5%;
-      letter-spacing: 5px;
-    }
+    margin-left:5%;
+    margin-right: 5%;
   }
-  .contact{
-    padding-top: 10%;
-    text-align: center;
-    @media only screen and (max-width: 576px) {
-      margin-left:5%;
-      margin-right: 5%;
-    }
-    .phone{
-      font-family: UbuntuBold, sans-serif;
-      padding-top: 30px;
-      a{
-        text-decoration: none;
-        color: black;
-      }
-      img{
-        height: 20px;
-        margin-right: 5px;
-      }
-    }
-    .mail{
-      font-family: UbuntuBold, sans-serif;
-      padding-top: 10px;
-      a{
-        text-decoration: none;
-        color: black;
-      }
-      img{
-        height: 20px;
-        margin-right: 5px;
-      }
-    }
-    .insta{      
-      font-family: UbuntuBold, sans-serif;
-      padding-top: 10px;
-      a{
-        text-decoration: none;
-        color: black;
-      }
-      img{
-        height: 20px;
-        margin-right: 5px;
-      }
-    }
-  } 
+}
+.phone{
+  font-family: UbuntuBold, sans-serif;
+  padding-top: 30px;
+}
+.link-phone{
+  text-decoration: none;
+  color: black;
+}
+.logo-phone{
+  height: 20px;
+  margin-right: 5px;
+}
+.mail{
+  font-family: UbuntuBold, sans-serif;
+  padding-top: 10px;
+}
+.link-env{
+  text-decoration: none;
+  color: black;
+}
+.logo-env{
+  height: 20px;
+  margin-right: 5px;
+}
+.insta{      
+  font-family: UbuntuBold, sans-serif;
+  padding-top: 10px;
+}
+.link-insta{
+  text-decoration: none;
+  color: black;
+}
+.logo-insta{
+  height: 20px;
+  margin-right: 5px;
 }
