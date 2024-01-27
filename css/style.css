@@ -338,6 +338,12 @@ header{
     height: auto;
   }
 }
+.p-text{
+  padding-top: 5%;
+}
+@media only screen and (max-width: 576px) {
+  padding-top: 0%;
+}
 .p-img-projet{
   height:350px;
   width: 350px;
