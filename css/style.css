@@ -89,66 +89,66 @@ header{
     height:auto
   }
 }
-.section-title{
+.a-title{
   font-size:20px;
   padding-top: 5%;
 }
 @media only screen and (max-width: 576px) {
-  .section-title{
+  .a-title{
     padding-bottom: 5%;
   }
 }
-.title-first{
+.a-title-first{
   font-family: UbuntuBold, sans-serif;   
 }
-.information{
+.a-information{
   font-family: UbuntuBold, sans-serif;
   font-size: 12px;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 @media only screen and (max-width: 576px) {
-  .information{
+  .a-information{
     padding-bottom: 5%;
   }
 }
-.citation-1{
+.a-citation-1{
   font-family: UbuntuRegular, sans-serif;
   text-align: right;
 }
-.text{
+.a-text{
   font-size: 15px;
 }
-.author{
+.a-author{
   font-size:13px;
   padding-top: 5px;
 }
-.contact{
+.a-contact{
   font-size: 13px;
   font-family: UbuntuRegular, sans-serif;
   margin-top: 5%;
 }
-.phone{
+.a-phone{
   font-family: UbuntuBold, sans-serif;
   padding-top: 30px;
 }
-.logo-phone{
+.a-logo-phone{
   height: 20px;
   margin-right: 5px;
 }
-.link-phone{
+.a-link-phone{
   text-decoration: none;
   color: black;
 }
-.mail{      
+.a-mail{      
   font-family: UbuntuBold, sans-serif;
   padding-top: 10px;
 }
-.logo-mail{
+.a-logo-mail{
   height: 20px;
   margin-right: 5px;
 }
-.link-mail{
+.a-link-mail{
   text-decoration: none;
   color: black;
 }
@@ -164,10 +164,10 @@ header{
     height: auto;
   }
 }
-.img-origine{
+.o-img-origine{
   max-width: 95%;
 }
-.title-origine{
+.o-title-origine{
   font-family: UbuntuBold, sans-serif;
   font-size: 40px;
   margin-top: 30px;
@@ -175,7 +175,7 @@ header{
   border-right: 2px solid black;
 }
 @media only screen and (max-width: 576px) {
-  .title-origine{
+  .o-title-origine{
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -184,11 +184,11 @@ header{
     text-align: left;
   }
 }
-.span-origine{
+.o-span-origine{
   letter-spacing: 5px;
   border-bottom: 2px solid black;
 }
-.title{
+.o-title{
   font-family: UbuntuBold, sans-serif;
   font-size: 15px;
   padding-bottom: 10px;
@@ -196,32 +196,32 @@ header{
   margin-top: 30px;
 }
 @media only screen and (max-width: 576px) {
-  .title{
+  .o-title{
     padding-left: 5%;
     padding-right: 5%;
   }
 }
-.content-1{
+.o-content-1{
   font-family: UbuntuRegular, sans-serif;
   font-size: 14px;
   padding-bottom: 10px;
   text-align: left;
 }
-.content-2{
+.o-content-2{
   font-family: UbuntuRegular, sans-serif;
   font-size: 14px;
   padding-bottom: 20px;
   text-align: left;   
 }
-.content-1{
+.o-content-1{
   padding-left: 5%;
   padding-right: 5%;
 }
-.content-2{
+.o-content-2{
   padding-left: 5%;
   padding-right: 5%;
 }
-.citation-2{
+.o-citation-2{
   font-family: DansingScript, cursive;
   margin-top: 8%;
 }
@@ -239,49 +239,49 @@ header{
     height: auto;
   }
 }
-.background-service-1{
+.s-background-service-1{
   background: url(../img/service-1.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
 }
-.background-service-2{
+.s-background-service-2{
   background: url(../img/service-2.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
 }
-.title-service{
+.s-title-service{
   font-family: UbuntuBold, sans-serif;
   font-size: 55px;
   padding-top: 5%;
 }
 @media only screen and (max-width: 576px) {
-  .title-service{
+  .s-title-service{
     font-size: 25px;
     padding-left: 5%;
     padding-bottom: 5%;
     margin-top: 30px;
   }
 }
-.span-service{
+.s-span-service{
   border-bottom: 2px solid black;
   letter-spacing: 10px;
 }
-.service{
+.s-service{
   padding-top: 1%;
 }
 @media only screen and (max-width: 576px) {
-  .service{
+  .s-service{
     padding-left: 5%;
     padding-right: 5%;
   }
 }
-.span-service{
+.s-span-service{
   border-bottom: 2px solid black;
   letter-spacing: 5px;
 }
-.circle{
+.s-circle{
   border-radius: 10px;
   background: black;
   height: 10px;
@@ -290,17 +290,17 @@ header{
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.subtitle{
+.s-subtitle{
   font-family: UbuntuBold, sans-serif;
   font-size: 15px;
   padding-bottom: 5px;
   text-align: center;
 }
-.price{
+.s-price{
   font-size: smaller;
   padding-left: 10px;
 }
-.info{
+.s-info{
   padding-bottom: 10px
 }
 
@@ -316,13 +316,13 @@ header{
     height: auto;
   }
 }
-.img-projet{
+.p-img-projet{
   height:350px;
   width: 350px;
   border:1px solid black;
   margin-top:15%
 }
-.title-projet{
+.p-title-projet{
   font-family: UbuntuBold, sans-serif;
   font-size: 40px;
   margin-top: 30px;
@@ -330,7 +330,7 @@ header{
   border-right: 2px solid black;
 }
 @media only screen and (max-width: 576px) {
-  .title-projet{
+  .p-title-projet{
     font-family: UbuntuBold, sans-serif;
     font-size: 25px;
     margin-left: 5px;
@@ -340,16 +340,16 @@ header{
   }
 }
 @media only screen and (max-width: 576px) {
-  .span-projet{
+  .p-span-projet{
     border-bottom: 2px solid black;
     letter-spacing: 5px;
   }
 }
-.libelle{
+.p-libelle{
   font-size: 13px;
   padding-top: 10px;
 }
-.projet{
+.p-projet{
   vertical-align: middle;
 }
 
@@ -361,7 +361,7 @@ header{
   font-size: 13px;
   height: 100%;
 }
-.title-contact{
+.c-title-contact{
   font-family: UbuntuBold, sans-serif;
   font-size: 55px;
   padding-top: 5%;
@@ -369,59 +369,59 @@ header{
   letter-spacing: 10px;
 }
 @media only screen and (max-width: 576px) {
-  .title-contact{
+  .c-title-contact{
     font-size: 25px;
     margin-left: 5px;
     margin-top: 5%;
     letter-spacing: 5px;
   }
 }
-.span-contact{
+.c-span-contact{
   border-bottom: 2px solid black;
 }
-.contact{
+.c-contact{
   padding-top: 10%;
   text-align: center;
 }
 @media only screen and (max-width: 576px) {
-  .contact{
+  .c-contact{
     margin-left:5%;
     margin-right: 5%;
   }
 }
-.phone{
+.c-phone{
   font-family: UbuntuBold, sans-serif;
   padding-top: 30px;
 }
-.link-phone{
+.c-link-phone{
   text-decoration: none;
   color: black;
 }
-.logo-phone{
+.c-logo-phone{
   height: 20px;
   margin-right: 5px;
 }
-.mail{
+.c-mail{
   font-family: UbuntuBold, sans-serif;
   padding-top: 10px;
 }
-.link-mail{
+.c-link-mail{
   text-decoration: none;
   color: black;
 }
-.logo-mail{
+.c-logo-mail{
   height: 20px;
   margin-right: 5px;
 }
-.insta{      
+.c-insta{      
   font-family: UbuntuBold, sans-serif;
   padding-top: 10px;
 }
-.link-insta{
+.c-link-insta{
   text-decoration: none;
   color: black;
 }
-.logo-insta{
+.c-logo-insta{
   height: 20px;
   margin-right: 5px;
 }
