@@ -93,76 +93,76 @@ html, body {
   scroll-behavior: smooth;
 }
 
+
+/*
+ * css section-1
+ */
 #section-1{
   height: 100%;
   padding: 0% 4% 0% 4%;
   font-family: UbuntuRegular, sans-serif;
   @media only screen and (max-width: 576px) {
-    height: auto;
+    height:auto
   }
-  .title{
-    font-size:20px;
-    padding-top: 5%;
-    .first{
-      font-family: UbuntuBold, sans-serif;   
-    }
+}
+.section-title{
+  font-size:20px;
+  padding-top: 5%;
+}
+@media only screen and (max-width: 576px) {
+  .section-title{
+    padding-bottom: 5%;   
   }
-  @media only screen and (max-width: 576px) {
-    .title{
-      padding-bottom: 5%;   
-    }
-  }
+}
+.title-first{
+  font-family: UbuntuBold, sans-serif;   
+}
+.information{
+  font-family: UbuntuBold, sans-serif;
+  font-size: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+@media only screen and (max-width: 576px) {
   .information{
-    font-family: UbuntuBold, sans-serif;
-    font-size: 12px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;   
   }
-  @media only screen and (max-width: 576px) {
-    .information{
-      padding-bottom: 5%;   
-    }
-  }
-  .citation-1{
-    font-family: UbuntuRegular, sans-serif;
-    text-align: right;
-    .text{
-      font-size: 15px;
-    }
-    .author{
-      font-size:13px;
-      padding-top: 5px;
-    }
-  }
-  .contact{
-    font-size: 13px;
-    font-family: UbuntuRegular, sans-serif;
-    margin-top: 15%;
-    a{
-      color: black;
-      text-decoration: none;
-    }
-    .phone{
-      font-family: UbuntuBold, sans-serif;
-      padding-top: 30px;
-      .link-phone{
-        text-decoration: none;
-        color: black;
-      }
-      .logo-phone{
-        height: 20px;
-        margin-right: 5px;
-      }
-    }
-    .mail{      
-      font-family: UbuntuBold, sans-serif;
-      padding-top: 10px;
-      .logo-env{
-        height: 20px;
-        margin-right: 5px;
-      }
-    }
-  }
+}
+.citation-1{
+  font-family: UbuntuRegular, sans-serif;
+  text-align: right;
+}
+.text{
+  font-size: 15px;
+}
+.author{
+  font-size:13px;
+  padding-top: 5px;
+}
+.contact{
+  font-size: 13px;
+  font-family: UbuntuRegular, sans-serif;
+  margin-top: 15%;
+}
+.phone{
+  font-family: UbuntuBold, sans-serif;
+  padding-top: 30px;
+}
+.logo-phone{
+  height: 20px;
+  margin-right: 5px;
+}
+.link-phone{
+  text-decoration: none;
+  color: black;
+}
+.mail{      
+  font-family: UbuntuBold, sans-serif;
+  padding-top: 10px;
+}
+.logo-mail{
+  height: 20px;
+  margin-right: 5px;
 }
 .link-mail{
   text-decoration: none;
