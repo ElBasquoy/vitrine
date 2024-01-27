@@ -145,11 +145,11 @@ html, body {
     .phone{
       font-family: UbuntuBold, sans-serif;
       padding-top: 30px;
-      a{
+      .link-phone{
         text-decoration: none;
         color: black;
       }
-      img{
+      .logo-phone{
         height: 20px;
         margin-right: 5px;
       }
@@ -157,11 +157,11 @@ html, body {
     .mail{      
       font-family: UbuntuBold, sans-serif;
       padding-top: 10px;
-      a{
+      .link-mail{
         text-decoration: none;
         color: black;
       }
-      img{
+      .logo-env{
         height: 20px;
         margin-right: 5px;
       }
