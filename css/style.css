@@ -65,7 +65,7 @@ header{
 }
 @media only screen and (max-width: 576px) {
   .initial-GB{
-    height: 50px !important
+    height: 70px !important
   }
 }
 .content{
@@ -126,7 +126,7 @@ header{
 .contact{
   font-size: 13px;
   font-family: UbuntuRegular, sans-serif;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 .phone{
   font-family: UbuntuBold, sans-serif;
