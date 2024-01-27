@@ -172,7 +172,7 @@ body{
 
 /*
  * css section-2
-  */
+ */
 #section-2{
   height: 100%;
   @media only screen and (max-width: 576px) {
@@ -242,8 +242,9 @@ body{
 }
 
 
-
-
+/*
+ * css section-2
+ */
 #section-3{
   font-family: UbuntuRegular, sans-serif;
   font-size: 13px;
@@ -251,67 +252,67 @@ body{
   @media only screen and (max-width: 576px) {
     height: auto;
   }
-  .background-service-1{
-    background: url(../img/service-1.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-  }
-  .background-service-2{
-    background: url(../img/service-2.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-  }
+}
+.background-service-1{
+  background: url(../img/service-1.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.background-service-2{
+  background: url(../img/service-2.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.title-service{
+  font-family: UbuntuBold, sans-serif;
+  font-size: 55px;
+  padding-top: 5%;
+}
+.span-service{
+  border-bottom: 2px solid black;
+  letter-spacing: 10px;
+}
+@media only screen and (max-width: 576px) {
   .title-service{
-    font-family: UbuntuBold, sans-serif;
-    font-size: 55px;
-    padding-top: 5%;
-    span{
-      border-bottom: 2px solid black;
-      letter-spacing: 10px;
-    }
+    font-size: 25px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 30px;   
   }
+}
+.service{
+  padding-top: 1%;
   @media only screen and (max-width: 576px) {
-    .title-service{
-      font-size: 25px;
-      padding-left: 5%;
-      padding-bottom: 5%;
-      margin-top: 30px;
-      span{
-        border-bottom: 2px solid black;
-        letter-spacing: 5px;
-      }    
-    }
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  .service{
-    padding-top: 1%;
-    .circle{
-      border-radius: 10px;
-      background: black;
-      height: 10px;
-      width: 10px;
-      display: inline-block;
-      margin-bottom: 5px;
-      margin-top: 5px;
-    }
-    .title{
-      font-family: UbuntuBold, sans-serif;
-      font-size: 15px;
-      padding-bottom: 5px;
-    }
-    .price{
-      font-size: smaller;
-      padding-left: 10px;
-    }
-    .info{
-      padding-bottom: 10px
-    }
-    @media only screen and (max-width: 576px) {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-  }
+}
+.span-service{
+  border-bottom: 2px solid black;
+  letter-spacing: 5px;
+}
+.circle{
+  border-radius: 10px;
+  background: black;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.title{
+  font-family: UbuntuBold, sans-serif;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.price{
+  font-size: smaller;
+  padding-left: 10px;
+}
+.info{
+  padding-bottom: 10px
 }
 
 #section-4{
