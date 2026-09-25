@@ -166,13 +166,14 @@ form.addEventListener('submit', async (e) => {
     });
     const data = await res.json().catch(() => ({}));
 
-    if (res.ok && data.ok) {
+    if (res.ok && (data.success || data.ok)) {
       form.reset();
-      document.getElementById('ouvert_a').value = String(Date.now());
+      const ouvertElem = document.getElementById('ouvert_a');
+      if (ouvertElem) ouvertElem.value = String(Date.now());
       status.className = 'status ok';
       status.textContent = window.siteText('Message envoyé. Je vous réponds sous 48 heures ouvrées.');
     } else {
-      throw new Error(data.error || 'Envoi impossible');
+      throw new Error(data.message || data.error || 'Envoi impossible');
     }
   } catch (err) {
     status.className = 'status err';
@@ -180,7 +181,7 @@ form.addEventListener('submit', async (e) => {
   } finally {
     btn.disabled = false;
     btn.textContent = window.siteText('Envoyer le message');
-  }
+  } 
 });
 
 const toggle = document.querySelector('.menu-toggle');
