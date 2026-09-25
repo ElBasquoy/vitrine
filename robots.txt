@@ -1,5 +1,6 @@
-# www.robotstxt.org/
-
-# Allow crawling of all content
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /inc/
+Disallow: /var/
+
+Sitemap: https://benjamin-gonzalez-design.fr/sitemap.xml
