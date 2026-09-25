@@ -23,14 +23,14 @@
   "image": "img/accueil.png",
   "url": "https://benjamin-gonzalez-design.fr/",
   "telephone": "+33652052904",
-  "email": "gonzalez_benjamin@outlook.com",
+  "email": "gonzalez_benjamin@outlook.fr",
   "areaServed": "Pays Basque, France",
   "availableLanguage": ["French", "Spanish"],
   "address": { "@type": "PostalAddress", "addressRegion": "Pyrénées-Atlantiques", "addressCountry": "FR" }
 }
 </script>
 
-<link rel="stylesheet" href="assets/css/style.css?v=20260924-final">
+<link rel="stylesheet" href="assets/css/style.css?v=20260925-web3forms">
 <link rel="icon" href="img/favicon.svg?v=20260924" type="image/svg+xml" sizes="any">
 <link rel="canonical" href="https://benjamin-gonzalez-design.fr/">
 </head>
@@ -200,12 +200,12 @@
             </a>
           </li>
           <li>
-            <a href="mailto:gonzalez_benjamin@outlook.com">
+            <a href="mailto:gonzalez_benjamin@outlook.fr">
               <small class="lbl">E-mail</small>
               <span class="row"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
                 <rect x="2.8" y="5" width="18.4" height="14" rx="2"/>
                 <path d="m3.4 6.6 8.6 6.2 8.6-6.2"/>
-              </svg><span class="val">gonzalez_benjamin@outlook.com</span></span>
+              </svg><span class="val">gonzalez_benjamin@outlook.fr</span></span>
             </a>
           </li>
           <li>
@@ -225,7 +225,11 @@
         <h3>Écrivez-moi</h3>
         <p class="form-intro">Les champs marqués d'un astérisque sont nécessaires pour vous répondre.</p>
 
-        <form id="contact-form" action="contact.php" method="post" novalidate>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="post" novalidate>
+          <input type="hidden" name="access_key" value="6ee06585-bc7d-4779-93f3-2851a0b5841a">
+          <input type="hidden" name="subject" value="Nouvelle demande — Benjamin Gonzalez">
+          <input type="hidden" name="from_name" value="Site Benjamin Gonzalez">
+          <input type="checkbox" name="botcheck" id="botcheck" hidden tabindex="-1" aria-hidden="true">
           <input type="hidden" name="ouvert_a" id="ouvert_a" value="">
           <div class="field-row">
             <div class="field">
@@ -268,7 +272,7 @@
 
           <div class="form-foot">
             <button class="btn" type="submit" id="send-btn">Envoyer le message</button>
-            <span class="consent">Vos informations servent uniquement à vous répondre et ne sont jamais transmises à des tiers.</span>
+            <span class="consent">Vos informations servent à répondre à votre demande. Le formulaire utilise Web3Forms pour transmettre votre message par e-mail.</span>
           </div>
 
           <p class="status" id="status" role="status" aria-live="polite"></p>
@@ -283,6 +287,6 @@
   <span>© <span id="year"></span> Benjamin Gonzalez — Architecte d'intérieur, Pays Basque</span>
   <span><a href="#contact">Prendre contact</a></span>
 </div></footer>
-  <script src="assets/js/main.js?v=20260924-final" defer></script>
+  <script src="assets/js/main.js?v=20260925-web3forms" defer></script>
 </body>
 </html>
