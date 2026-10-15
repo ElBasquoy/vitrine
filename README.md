@@ -1,37 +1,27 @@
-# Benjamin Gonzalez — Site complet français / espagnol
+# Benjamin Gonzalez — mise à jour du 15 octobre 2026
 
-## Version livrée
-Site intégral avec sélecteur FR / ES, traductions, logo, galerie, onglets Matières et dernier portrait validé dans le décor de l’agence basque. Les images sont incluses dans img/. Le choix de langue est mémorisé sur le navigateur ; ?lang=fr et ?lang=es permettent de choisir la langue au chargement. La version française reste accessible sans JavaScript.
+Cette version conserve la mise en page d’origine, le bandeau arrondi, le rail latéral, le logo, le portrait et la présentation des outils. La cuisine en chêne et briques de verre remplace le dessin en accueil. Les vues répétées du nouveau projet ont été retirées de sa galerie : neuf vues distinctes sont réparties entre l’accueil, les matières, Ancrage et la galerie.
 
-## Mise à jour de l’hébergement
-1. Télécharger une sauvegarde du site actuellement en ligne.
-2. Décompresser site-benjamin-moderne.zip sur votre ordinateur.
-3. Transférer le CONTENU de l’archive dans le dossier public du site (souvent www, public_html ou htdocs), à la place des fichiers existants. index.html doit se trouver directement à la racine publique, sans dossier intermédiaire.
-4. Transférer les dossiers assets/, img/, inc/ et var/ en conservant leur structure. Inclure les fichiers .htaccess présents à la racine et dans inc/ et var/ ; certains logiciels FTP les masquent.
-5. Si inc/config.php est déjà configuré sur l’hébergement, conserver ses réglages réels d’envoi au lieu de les remplacer par les paramètres fournis. Conserver aussi un éventuel dossier vendor/ existant si SMTP est utilisé. Ne pas supprimer les autres fichiers de votre hébergement.
-6. Actualiser le navigateur (Ctrl + F5). Si l’hébergeur dispose d’un cache, le purger.
-7. Vérifier le portrait, les boutons FR / ES, le menu mobile, la galerie et les onglets Matières. Envoyer un message de test depuis le site en ligne puis vérifier sa réception dans la boîte destinataire.
+## Contenu à mettre en ligne
 
-## Hébergement et formulaire
-Prévu pour Apache avec PHP 8.1 ou supérieur. Un hébergement uniquement statique ne pourra pas envoyer le formulaire contact.php. Sous Nginx, faire adapter les règles .htaccess par l’hébergeur.
+Le dossier contient la page principale, quatre pages de prestations, une page consacrée au locatif, une réalisation de salle de bain à Anglet et les mentions légales. Le français et l’espagnol sont disponibles. Les éléments de l’étude du 30 septembre ont été réintégrés. Voir VERIFICATION_REFERENCEMENT.md pour distinguer le travail réalisé dans le code des actions encore nécessaires dans les comptes Google.
 
-Le fichier inc/config.php contient la configuration :
-- destinataire : gonzalez_benjamin@outlook.com ;
-- expéditeur : site@benjamin-gonzalez-design.fr, à vérifier auprès de l’hébergeur ;
-- mode fourni : mail (fonction d’envoi PHP de l’hébergeur).
+Publier le contenu de l’archive à la racine du dépôt GitHub Pages du site, avec les sous-dossiers assets/, img/, services/, projets/, amenagement-location-saisonniere-pays-basque/ et mentions-legales/. Conserver CNAME et .nojekyll. Ne pas modifier les réglages DNS ou le TXT de vérification Google existant. Conserver une sauvegarde du dépôt avant remplacement.
 
-Le mode SMTP facultatif nécessite PHPMailer installé via Composer et les véritables paramètres SMTP. Les paramètres SMTP fournis sont des exemples, pas une configuration opérationnelle. Le dossier var/ doit être accessible en écriture par PHP pour le compteur anti-abus et les journaux. Ne pas rendre inc/ et var/ accessibles publiquement.
+Après le déploiement, vérifier l’accueil, les pages intérieures, la bascule FR/ES et un envoi réel du formulaire. Soumettre le sitemap dans Search Console et vérifier les URL publiées. Cette livraison ne réalise aucun déploiement.
 
-Le domaine indiqué dans les métadonnées, robots.txt, sitemap.xml et la configuration d’envoi est benjamin-gonzalez-design.fr. Adapter ces valeurs si le domaine de destination est différent.
+## Formulaire et aperçu
 
-## Repères pour modifier le site
-- index.html : contenu français, structure, prix et références des images.
-- assets/css/style.css : mise en page, couleurs et affichage mobile.
-- assets/js/main.js : traductions espagnoles, choix de langue, menu, galerie, onglets et formulaire. Si un texte français change, mettre à jour sa correspondance dans le dictionnaire de traduction.
-- img/portrait-benjamin-agence-basque.png : portrait actuellement affiché.
-- inc/config.php : envoi des messages.
+Le site utilise Web3Forms avec la clé publique déjà configurée. Les anciens fichiers PHP ne sont pas utilisés par ce formulaire et ne fonctionnent pas sur GitHub Pages ; ne pas activer un second système d’envoi.
 
-Les polices Google nécessitent une connexion Internet ; des polices de remplacement sont prévues. L’aperçu HTML autonome remis séparément sert à consulter la maquette : il ne remplace pas ces fichiers et son formulaire n’envoie pas de messages.
+L’aperçu autonome fourni séparément réunit les huit pages, leurs images et interactions. Il permet la navigation sans installer de serveur. Les envois du formulaire y sont désactivés ; les polices distantes nécessitent Internet, avec une police de remplacement disponible.
 
-## Vérifications effectuées
-Ressources locales et structure de l’archive vérifiées. Syntaxe JavaScript vérifiée ; bascule FR / ES vérifiée au niveau du contrôleur. Aucun envoi réel n’a été effectué. La réception des messages et le rendu sur l’hébergement doivent être vérifiés après transfert. PHP n’est pas disponible dans l’environnement de préparation pour une vérification d’exécution.
+## Documents
+
+VERIFICATION_REFERENCEMENT.md : bilan actuel des recommandations et limites.
+VERIFICATION.txt : contrôles techniques de cette livraison.
+suivi-referencement/ : documents historiques de l’étude du 30 septembre, conservés comme référence. Le bilan actuel prévaut pour cette livraison.
+
+Les mentions légales reprennent le document précédemment préparé. Leur intégration ne constitue pas une certification juridique. Les points administratifs non validés restent indiqués dans l’étude.
+
+Mise à jour des visuels : neuf vues du nouveau lot sont utilisées, dont une photographie de conception du salon dans Ancrage. Une seconde vue du même salon, presque identique, est écartée pour éviter les répétitions. Les rendus précédents du projet ont été remplacés ; les autres rubriques et optimisations SEO sont conservées.

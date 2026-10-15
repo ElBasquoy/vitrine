@@ -1,0 +1,22 @@
+﻿priorite_editoriale;requete_cible;intention;URL_cible;justification;volume_mensuel
+P1;architecte d’intérieur Anglet;Commerciale locale;/;Métier principal et implantation réelle;Non mesuré
+P1;architecte d’intérieur Biarritz;Commerciale locale;/;"Zone desservie ; page ville dédiée seulement avec contenu distinct";Non mesuré
+P1;architecte d’intérieur Bayonne;Commerciale locale;/;"Zone desservie ; page ville dédiée seulement avec contenu distinct";Non mesuré
+P1;architecte d’intérieur Côte Basque;Commerciale régionale;/;Zone cohérente avec activité;Non mesuré
+P1;décorateur d’intérieur Anglet;Commerciale locale;/;Offre de décoration réelle;Non mesuré
+P1;décorateur d’intérieur Biarritz;Commerciale locale;/;Offre de décoration réelle;Non mesuré
+P1;décorateur d’intérieur Bayonne;Commerciale locale;/;Offre de décoration réelle;Non mesuré
+P2;visite conseil décoration Anglet;Prestation précise;/services/visite-conseil/;Conseil sur place dès 350 €;Non mesuré
+P2;conseil décoration Pays Basque;Prestation précise;/services/visite-conseil/;Conseil agencement matières éclairage;Non mesuré
+P2;aménagement intérieur Anglet;Commerciale locale;/services/conception-piece/;Besoin de concevoir une pièce;Non mesuré
+P2;rénovation appartement Anglet;Projet / travaux;/services/conception-globale/;Préciser conception et accompagnement, ne pas se présenter comme entreprise tous corps d’état;Non mesuré
+P2;rénovation appartement Biarritz;Projet / travaux;/services/conception-globale/;Pertinence conception à mesurer dans Search Console;Non mesuré
+P2;architecture intérieure Bayonne;Commerciale locale;/services/conception-globale/;Conception globale sur zone réelle;Non mesuré
+P2;suivi chantier intérieur Pays Basque;Prestation précise;/services/suivi-chantier/;Mission complémentaire sur devis;Non mesuré
+P2;aménagement location saisonnière Pays Basque;Commerciale spécialisée;/amenagement-location-saisonniere-pays-basque/;Propriétaires de locations saisonnières;Non mesuré
+P2;décoration location saisonnière Biarritz;Commerciale spécialisée;/amenagement-location-saisonniere-pays-basque/;Aménagement et confort, sans promesse de revenus;Non mesuré
+P2;aménagement logement locatif Anglet;Commerciale spécialisée;/amenagement-location-saisonniere-pays-basque/;Propriétaires de logements meublés;Non mesuré
+P2;rénovation salle de bain Anglet;Projet / réalisation;/projets/salle-de-bain-anglet/;Réalisation publiée, renvoi vers mission adaptée;Non mesuré
+P3;prix architecte d’intérieur Pays Basque;Comparaison / prix;/services/conception-globale/;Tarifs visibles, minimum et exclusions expliqués;Non mesuré
+P3;prix visite conseil décoration;Comparaison / prix;/services/visite-conseil/;350 € minimum et livrables;Non mesuré
+P3;aménagement boutique Pays Basque;Commerciale professionnelle;/;"Cible actuelle ; futur contenu à développer avec un vrai projet";Non mesuré

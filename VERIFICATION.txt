@@ -1,0 +1,13 @@
+Vérification du 15 octobre 2026
+
+Cuisine fournie en accueil ; répétitions cuisine et salon retirées de la galerie du nouveau projet.
+Présentation conservée : bandeau arrondi, rail latéral, logo, Origine, portrait et outils.
+Huit pages réunies depuis l’étude SEO du 30 septembre. Sept URL indexables au sitemap ; mentions légales en noindex,follow.
+Contrôle Chromium des huit routes à 1440 × 1000 et 390 × 844 : français/espagnol, absence de débordement, images, absence d’erreur JavaScript et de ressource manquante.
+Galerie dépliable, agrandissement d’image et choix de mission vérifiés.
+Aperçu autonome final : accueil, ouverture d’une prestation, page légale, retour à l’accueil et bascule espagnole vérifiés sur Chromium ; contrôle des images et de la largeur mobile réussi.
+Identifiants uniques, références de fichiers, ancres locales et syntaxe JSON-LD contrôlés sur les huit pages. Syntaxe JavaScript contrôlée.
+Aucun déploiement et aucun envoi réel de formulaire. Aucun contrôle de propriété ou d’indexation dans Search Console, aucune modification de Google Business Profile.
+Le document VERIFICATION_REFERENCEMENT.md distingue les intégrations réalisées des actions externes restantes.
+
+Mise à jour du lot quartz blanc : neuf vues distinctes. Nouvelle image Ancrage et agrandissement au clic testés. Aperçu FR/ES, navigation, images et largeur mobile contrôlés de nouveau. Tous les fichiers WebP ont été validés après conversion.

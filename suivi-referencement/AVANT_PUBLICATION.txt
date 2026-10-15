@@ -1,0 +1,30 @@
+PAGE JURIDIQUE INTÉGRÉE — POINTS D’APPLICATION ET DE VÉRIFICATION
+
+Informations fournies par Benjamin et intégrées : EI/microentreprise ; adresse 51 Rue Henri Reneric, 64600 Anglet ; SIRET 94920095000010 ; SIREN dérivé 949200950 ; photographies, croquis, projections et logo attribués à Benjamin ; droits de publication confirmés. Benjamin confirme facturer 350 € au total pour une prestation de 350 €, sans ajouter de TVA. La mention de franchise en base déjà affichée est conservée ; cela ne constitue pas un contrôle fiscal des seuils ou de l’éligibilité.
+
+Immatriculation : le justificatif n’a pas été fourni et la recherche publique du SIRET n’a pas permis de vérifier le registre. Aucun numéro RCS ni registre précis n’est inventé. Vérifier le justificatif RNE/INPI et ajouter toute référence applicable à la nature réellement déclarée de l’activité.
+
+Médiation : Benjamin a demandé de ne pas afficher de médiateur. La section est donc omise dans la page publique. L’obligation de rattachement et d’information pour les clients consommateurs reste non couverte ; ne pas présenter la livraison comme une certification de conformité complète. Aucune adhésion n’a été effectuée.
+
+Conservation : politique retenue pour les prospects sans contrat, trois ans au maximum après la collecte ou le dernier contact venant du demandeur. Trier et supprimer les messages devenus inutiles dans Outlook et les éventuelles copies/exportations ; le site ne déclenche aucune suppression automatique dans la messagerie. Pour les dossiers contractualisés, trier et archiver seulement les documents nécessaires aux obligations applicables.
+
+Accès : les demandes sont destinées à Benjamin ; Web3Forms/Web3Creative, Microsoft Outlook et leurs prestataires techniques interviennent dans leur traitement. Les éventuels accès délégués ou intégrations du compte n’ont pas été inspectés. Vérifier les droits d’accès, retirer les accès inutiles et compléter les catégories de destinataires si d’autres personnes interviennent réellement.
+
+Prestataires et transferts : vérifier les conditions du compte Web3Forms (dont DPA et garanties de transferts), celles de la messagerie et les intégrations réellement activées. La page expose les services connus et renvoie vers leurs documents. Les conditions d’utilisation d’un compte n’ont pas été acceptées ou modifiées par cette livraison.
+
+Hébergeur : adresse GitHub confirmée dans sa déclaration de confidentialité. Le numéro +1 (877) 448-4820 figure dans une documentation officielle GitHub ; il s’agit d’un contact publié, pas d’une promesse d’assistance téléphonique. Vérifier ces coordonnées lors de la mise en ligne.
+
+Navigation : code contrôlé sans outil de publicité ou d’audience. Les polices restent servies par Google Fonts et le choix FR/ES est mémorisé localement. Vérifier l’absence de nouveaux traceurs ajoutés au déploiement. L’intégration de cette notice ne constitue pas un audit juridique complet des prestataires.
+
+Technique : vérifier menu mobile, FR/ES sur la page juridique, galerie, présélection de mission et focus, lien Données personnelles, réception réelle du formulaire. Le navigateur de test n’a pas pu être relancé dans cette révision ; les contrôles statiques et les liens ont été vérifiés.
+
+Sources consultées le 30/09/2026 :
+https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des
+https://www.cnil.fr/fr/exemples-de-formulaire-de-collecte-de-donnees-caractere-personnel
+https://web3forms.com/privacy
+https://web3forms.com/dpa
+https://www.microsoft.com/fr-fr/privacy/privacystatement
+https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+https://enterprise.github.com/downloads/en/enterprise-datasheet.pdf
+https://www.impots.gouv.fr/professionnel/questions/je-suis-micro-entrepreneur-ou-la-tete-dune-micro-entreprise-ai-je-des
+https://www.economie.gouv.fr/mediation-conso/vous-etes-un-professionnel/vos-principales-obligations-0
